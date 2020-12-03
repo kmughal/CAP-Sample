@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Startup.cs~RF19ba8c.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetCore.CAP" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.Dashboard" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.MongoDB" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="3.1.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+
+
+</Project>
